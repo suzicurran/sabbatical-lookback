@@ -1,5 +1,6 @@
 # Workflow for deploying static content to Pages
-name: Deploy to Github Pages
+name: deploy
+run-name: Deploy to Pages by @${{ github.actor }}
 
 on:
   # Runs on pushes targeting the gh-pages branch
